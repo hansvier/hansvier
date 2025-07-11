@@ -35,9 +35,12 @@
 
 > “Because even coders need to look up at the stars sometimes.” ✨
 
+### 🌌 NASA Image of the Day
+
 <p align="center">
-  <img src="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY" width="80%" alt="NASA Image of the Day" />
+  <img src="img/apod.jpg" width="80%" alt="NASA Image of the Day" />
 </p>
+
 
 > 📸 *Image source: NASA APOD API*
 
