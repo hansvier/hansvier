@@ -1,61 +1,71 @@
 <!-- Banner -->
-![hansvier](img/hansvier-profile.png)
-
-
-<h1 align="center">Hi, I'm Hansvier 👋</h1>
-<h3 align="center">Informatics Explorer | Tech Enthusiast | Blockchain Dreamer</h3>
-
----
-
-### ✨ About Me – In Words
-
-> Di antara ribuan baris kode dan lembar kerja yang membosankan,  
-> aku menemukan hidup dalam alur logika dan ritme musik yang sederhana.  
->  
-> Aku bukan hanya mahasiswa Teknik Informatika dari Batam.  
-> Aku adalah penjelajah ide, pengagum teknologi, dan pemimpi yang jatuh cinta pada dunia blockchain.  
->  
-> Siang jadi operator, malam jadi perakit mimpi —  
-> Dengan Laravel dan Java di tangan, serta imajinasi di kepala.  
->  
-> Karya bukan sekadar hasil, tapi jejak perjalanan.  
-> Mari kita mulai membangun, satu baris kode pada satu waktu. 🚀
-
----
-
-### 🌤️ Weather Today in Batam
-
 <p align="center">
-  <img src="https://wttr.in/Batam.png?u&transparency=100" alt="Weather in Batam" />
+  <img src="img/hansvier-profile.png" alt="Hansvier Banner" />
 </p>
 
----
-
-### 🌌 NASA Image of the Day
-
-> “Because even coders need to look up at the stars sometimes.” ✨
-
-### 🌌 NASA Image of the Day
-
-<p align="center">
-  <img src="img/apod.jpg" width="80%" alt="NASA Image of the Day" />
-</p>
-
-
-> 📸 *Image source: NASA APOD API*
+<h1 align="center">Hi 👋, I'm Hansvier</h1>
+<h3 align="center">Informatics Student | Tech Explorer | Blockchain Enthusiast</h3>
 
 ---
 
-### 🧠 My Skillset
+### ✨ About Me
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,java,mysql,git,linux,figma,canva,photoshop,word,excel,powerpoint,notion" />
-</p>
+> Di antara ribuan baris kode dan deretan tugas yang tak berujung,  
+> aku menemukan makna dalam proses, bukan sekadar hasil.  
+>  
+> Mahasiswa Teknik Informatika di Universitas Putera Batam,  
+> yang bekerja sebagai Operator Produksi di siang hari,  
+> dan membangun mimpi digital di malam hari.  
+>  
+> Tertarik pada teknologi, keamanan siber, dan dunia blockchain.  
+> Bekerja dengan tangan, berpikir dengan hati, dan bermimpi dengan logika.  
+>  
+> Mari kita mulai membangun, satu baris kode dalam satu waktu. 🚀
+
+---
+
+### 💻 Tech Stack & Tools
+
+#### Programming & Development
+- 🖋️ HTML, CSS, JavaScript
+- ⚙️ PHP & Laravel
+- ☕ Java (OOP)
+- 🛢️ MySQL
+
+#### Dev Tools & OS
+- 🧪 Git, Terminal
+- 🐧 Linux OS
+
+#### UI/UX & Design
+- 🎨 Figma
+- 🖼️ Canva
+- 🧪 Adobe Photoshop
+
+#### Productivity & Office Tools
+- 📄 Word (Document Architect)
+- 📊 Excel (Data Crafter)
+- 📽️ PowerPoint (Slide Alchemist)
+- 🧠 Notion (Workflow Wizard)
+
+---
+
+### 📚 Currently Learning
+- 🔐 Network & Web Security
+- 🔗 Blockchain Technology
+- 🧱 Smart Contract Development
+- 📦 Clean Code & API Integration
+
+---
+
+### 🎸 Fun Facts
+- 🎶 I love slow pop songs and often sing while playing guitar.
+- 🎮 I'm also a casual gamer when I’m not coding or designing.
+- 🌱 Always hungry to learn, fail, fix, and grow.
 
 ---
 
 ### 💬 Motto
 
 > _"Discipline, faith, and passion lead to great things."_  
-> _Keep building. Keep dreaming._
+> _Progress over perfection, every day._
 
