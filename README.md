@@ -1,7 +1,6 @@
 <!-- Banner -->
 ![hansvier](img/hansvier-profile.png)
-<p align="center">
-</p>
+
 
 <h1 align="center">Hi, I'm Hansvier 👋</h1>
 <h3 align="center">Informatics Explorer | Tech Enthusiast | Blockchain Dreamer</h3>
