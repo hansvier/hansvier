@@ -2,23 +2,32 @@ name: Update NASA APOD
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # setiap jam 01:00 UTC
+    - cron: '0 1 * * *'  # setiap hari jam 01:00 UTC (08:00 WIB)
   workflow_dispatch:
 
 jobs:
   update-apod:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Download APOD
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Get NASA APOD image URL
+        id: apod
         run: |
-          curl "https://api.nasa.gov/planetary/apod?api_key=${{KnzziRBf1fjLKcLv75S510cW0M6xhWtCZgklYEFP}}&hd=true" \
-               | jq -r '.hdurl' \
-               | xargs curl -o img/apod.jpg
-      - name: Commit & Push
+          curl -s "https://api.nasa.gov/planetary/apod?api_key=${{ secrets.NASA_API_KEY }}" > apod.json
+          cat apod.json
+          echo "::set-output name=image_url::$(jq -r '.hdurl' apod.json)"
+
+      - name: Download image
+        run: |
+          curl -s "${{ steps.apod.outputs.image_url }}" -o img/apod.jpg
+
+      - name: Commit & push image
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add img/apod.jpg
-          git commit -m "chore: update NASA APOD image" || echo "No changes"
+          git commit -m "Auto-update NASA APOD image"
           git push
