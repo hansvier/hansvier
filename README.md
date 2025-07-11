@@ -1,6 +1,6 @@
 <!-- Banner -->
-<p align="center">
 ![hansvier](img/hansvier-profile.png)
+<p align="center">
 </p>
 
 <h1 align="center">Hi, I'm Hansvier 👋</h1>
