@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Download APOD
         run: |
-          curl "https://api.nasa.gov/planetary/apod?api_key=${{ secrets.NASA_API_KEY }}&hd=true" \
+          curl "https://api.nasa.gov/planetary/apod?api_key=${{KnzziRBf1fjLKcLv75S510cW0M6xhWtCZgklYEFP}}&hd=true" \
                | jq -r '.hdurl' \
                | xargs curl -o img/apod.jpg
       - name: Commit & Push
