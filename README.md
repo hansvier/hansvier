@@ -3,8 +3,8 @@
   <img src="img/hansvier-profile.png" alt="Hansvier Banner" />
 </p>
 
-<h1 align="center">Hi 👋, I'm Hansvier</h1>
-<h3 align="center">Informatics Student | Tech Explorer | Blockchain Enthusiast</h3>
+<h1 align="center">Hi 👋 Welcome to my profile guys </h1>
+<h3 align="center">Enjoy to Coming</h3>
 
 ---
 
